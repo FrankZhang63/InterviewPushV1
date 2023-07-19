@@ -1,0 +1,19 @@
+appname: "InterviewPush"
+mode: "dev"
+port: 8085
+
+mysql:
+  host: xxxxxxxxx
+  port: xxxx
+  user: xxxx
+  password: xxxx
+  db: xxxx
+  max_open_conns: 1000
+  max_idle_conns: 20
+
+log:
+  level: "debug"
+  filename: "./start.log"
+  max_size: 10000
+  max_age: 3600
+  max_backups: 5
